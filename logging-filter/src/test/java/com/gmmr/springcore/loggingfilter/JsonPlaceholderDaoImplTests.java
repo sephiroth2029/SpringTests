@@ -11,6 +11,9 @@ import static org.hamcrest.CoreMatchers.not;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.text.IsEmptyString.isEmptyString;
 
+/**
+ * Simple test to start the REST call.
+ */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class JsonPlaceholderDaoImplTests {
