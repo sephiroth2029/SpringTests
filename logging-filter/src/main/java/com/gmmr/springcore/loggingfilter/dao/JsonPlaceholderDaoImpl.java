@@ -25,7 +25,7 @@ public class JsonPlaceholderDaoImpl implements JsonPlaceholderDao {
      * @param serviceUrl the complete service URL to be consumed.
      */
     public JsonPlaceholderDaoImpl(@Autowired RestTemplate restTemplate,
-                                  @Value("${external.reqres.serviceUrl}") String serviceUrl) {
+                                  @Value("${external.serviceUrl}") String serviceUrl) {
         this.restTemplate = restTemplate;
         this.serviceUrl = serviceUrl;
     }
